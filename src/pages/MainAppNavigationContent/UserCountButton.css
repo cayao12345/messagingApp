@@ -1,0 +1,17 @@
+button{
+    padding: 0.5em;
+    font-family: var(--font1);
+    font-size: 2rem;
+    background: var(--color4);
+    color: var(--color2);
+    margin: 0 0.2em;
+    border: none;
+    transition: 300ms ease;
+}
+button:hover{
+    cursor: pointer;
+    background: var(--color2);
+    color: var(--color4);
+    border: 2px solid var(--color4);
+    transition: 300ms ease;
+}

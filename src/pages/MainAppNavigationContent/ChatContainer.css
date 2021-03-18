@@ -1,0 +1,126 @@
+.chatContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.chatContainer h2{
+    color: var(--color2);
+
+
+}
+.chatContainer  .scrollDiv{
+    overflow: scroll;
+}
+.chatContainer .userChatContainer{
+    background: var(--color3);
+    font-family: var(--font1);
+    width: 600px;
+    padding: 0.7em;
+    position: relative;
+    margin: 1em 0;
+}
+.chatContainer .userChatContainer .scrollDiv{
+    border: 1px solid black;
+}
+.chatContainer .userChatContainer .messageContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 250px;
+}
+.chatContainer .userChatContainer .messageContainer .message {
+    scale: 1;
+    padding: 0.7em;
+    margin: 0.5em 0;
+    color: #fff;
+    width: 70%;
+   transition: 300ms ease;
+
+}
+.chatContainer .userChatContainer .messageContainer .message.otherMessage {
+    background: var(--color2);
+    
+    align-self: flex-start; 
+
+}.chatContainer .userChatContainer .messageContainer .message.usersMessage {
+    background: var(--color4);
+    color: var(--color2);
+    align-self: flex-end; 
+    
+}
+.chatContainer .userChatContainer .messageContainer .message .date{ 
+    font-size: 0.8rem;
+    margin: 0.5em 0;
+}
+.chatContainer .userChatContainer .messageContainer .message .from{ 
+    font-size: 0.8rem;
+    margin: 0.5em 0;
+
+}
+.chatContainer .userChatContainer .inputContainer{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background: var(--color2);
+}
+.chatContainer .userChatContainer .inputContainer form{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.chatContainer .userChatContainer .inputContainer form textarea{
+    width: 70%;
+    height: 100px;
+    color: var(--color2);
+    resize: none;
+    padding: 0.5em;
+    font-family: var(--font1);
+}
+.chatContainer .userChatContainer .inputContainer form button{
+    background: transparent;
+    border: none;
+}
+.chatContainer .userChatContainer .inputContainer form .icon{
+    font-size: 3rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.chatContainer .userChatContainer .enterUsernameOverlay{
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    background: rgba(0, 0, 0,0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 300ms ease;
+
+}
+.chatContainer .userChatContainer .enterUsernameOverlay form{
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+.chatContainer .userChatContainer .enterUsernameOverlay form input{
+    padding: 0.5em;
+    font-size: 1.2rem;
+    font-family: var(--font1);
+}
+.chatContainer .userChatContainer .enterUsernameOverlay form button{
+    padding: 0.5em;
+    font-size: 1.2rem;
+    font-family: var(--font1);
+    background: var(--color1);
+    border: none;
+    color: #fff;
+    
+}
+
+.chatContainer .userChatContainer .enterUsernameOverlay.active{
+    transform: scale(1);
+    transition: 300ms ease;
+}

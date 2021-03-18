@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homePageContainer{
+    font-family: var(--font2);
+    background: var(--color2);
+    color: var(--color1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homePageContainer h1{
+    padding: 0.5em;
+}
+.homePageContainer .getStartedButton{
+    padding: 0.5em;
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    border: none;
+    background: var(--color1);
+    color: var(--color2);
+    outline: none;
+    transition: 350ms;
+    border-radius: 0.2em;
+    text-decoration: none;
+}
+.homePageContainer .getStartedButton:hover{
+    background: var(--color3);
+    color: var(--color2);
+    transition: 200ms;
+    cursor: pointer;
+}
+.homePageContainer .icon{
+    font-size: 3rem;
+}

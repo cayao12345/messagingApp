@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Pacifico&display=swap');
+:root{
+    --color1 : #A53860;
+    --color2 : #4C3B4D;
+    --color3 : #ADA8B6;
+    --color4 : #FFEEDB;
+
+    --font1 : 'PT Sans', sans-serif;
+    --font2 : 'Pacifico', cursive;
+}

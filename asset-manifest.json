@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cayao12345/messagingApp/static/css/main.3f11f29c.chunk.css",
-    "main.js": "/cayao12345/messagingApp/static/js/main.1585d1c7.chunk.js",
-    "main.js.map": "/cayao12345/messagingApp/static/js/main.1585d1c7.chunk.js.map",
-    "runtime-main.js": "/cayao12345/messagingApp/static/js/runtime-main.25f9fcc7.js",
-    "runtime-main.js.map": "/cayao12345/messagingApp/static/js/runtime-main.25f9fcc7.js.map",
-    "static/js/2.bb328b89.chunk.js": "/cayao12345/messagingApp/static/js/2.bb328b89.chunk.js",
-    "static/js/2.bb328b89.chunk.js.map": "/cayao12345/messagingApp/static/js/2.bb328b89.chunk.js.map",
-    "index.html": "/cayao12345/messagingApp/index.html",
-    "static/css/main.3f11f29c.chunk.css.map": "/cayao12345/messagingApp/static/css/main.3f11f29c.chunk.css.map",
-    "static/js/2.bb328b89.chunk.js.LICENSE.txt": "/cayao12345/messagingApp/static/js/2.bb328b89.chunk.js.LICENSE.txt"
+    "main.css": "/messagingApp/static/css/main.3f11f29c.chunk.css",
+    "main.js": "/messagingApp/static/js/main.1585d1c7.chunk.js",
+    "main.js.map": "/messagingApp/static/js/main.1585d1c7.chunk.js.map",
+    "runtime-main.js": "/messagingApp/static/js/runtime-main.d5f41d7b.js",
+    "runtime-main.js.map": "/messagingApp/static/js/runtime-main.d5f41d7b.js.map",
+    "static/js/2.bb328b89.chunk.js": "/messagingApp/static/js/2.bb328b89.chunk.js",
+    "static/js/2.bb328b89.chunk.js.map": "/messagingApp/static/js/2.bb328b89.chunk.js.map",
+    "index.html": "/messagingApp/index.html",
+    "static/css/main.3f11f29c.chunk.css.map": "/messagingApp/static/css/main.3f11f29c.chunk.css.map",
+    "static/js/2.bb328b89.chunk.js.LICENSE.txt": "/messagingApp/static/js/2.bb328b89.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.25f9fcc7.js",
+    "static/js/runtime-main.d5f41d7b.js",
     "static/js/2.bb328b89.chunk.js",
     "static/css/main.3f11f29c.chunk.css",
     "static/js/main.1585d1c7.chunk.js"
